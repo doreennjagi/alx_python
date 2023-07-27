@@ -1,2 +1,3 @@
 #!/usr/bin/env python3
-a = 42
+a = 89
+a = -100
