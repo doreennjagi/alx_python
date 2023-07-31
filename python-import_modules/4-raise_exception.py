@@ -5,4 +5,4 @@ def raise_exception():
         raise TypeError
     except TypeError as te:
         # Print the error message
-        print("Exception raised")
+        print("Exception has been raised")
