@@ -5,5 +5,6 @@ def square_matrix_simple(matrix=[]):
         new_row =[]
         for element in row:
             new_row.append(element ** 2)
-            return result_matrix.append(new_row)
+            result_matrix.append(new_row)
+            return result_matrix
         
