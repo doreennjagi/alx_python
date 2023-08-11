@@ -2,7 +2,7 @@
 """ defines a square"""
 class Square:
     """ represents  square"""
-    def __init__(self, size=0):
+    def __init__(self, size):
         """ initializes sizes of the square"""
         
         self.size = size #size of the square
