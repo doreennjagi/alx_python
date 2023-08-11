@@ -1,8 +1,11 @@
 #!/usr/bin/python3
-""" defines a square"""
+""" class Square that defines a square"""
+
+
 class Square:
-    """ represents  square"""
+    """ class Square that defines a square"""
     def __init__(self, size):
-        """ initializes sizes of the square"""
-        
-        self.size = size #size of the square
+        """initialize square
+        Args- size (int): size of the square
+        """
+        self.__size = size  #: size of the square
