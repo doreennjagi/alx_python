@@ -9,3 +9,5 @@ class mysquare:
 
     def area(self):
         return self.__size ** 2
+mysquare = mysquare(5)
+print("Area of square:", mysquare.area())
