@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-class Mysquare:
+class mysquare:
     def __init__(self ,size):
         self.__size = size
     def area(self):
