@@ -1,12 +1,13 @@
 #!usr/bin/python3
-"""defines a base model class"""
+"""Defines a base model class."""
 class Base:
+    """Represent the base model."""
     __nb_objects = 0
 
     def __init__(self, id=None):
-        """initializs a new base
+        """Initialize a new Base.
         Args:
-            id(int): the identity of the new base
+            id (int): The identity of the new Base.
         """
         if id is not None:
             self.id = id
