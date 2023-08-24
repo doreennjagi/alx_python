@@ -1,1 +1,1 @@
-# object-reltional mapping
+# object-relational mapping
