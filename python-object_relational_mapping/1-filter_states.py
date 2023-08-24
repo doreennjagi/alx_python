@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Write a script that lists all states from the database
+"""Write a script that lists all states with a name
+starting with N (upper N) from the database hbtn_0e_0_usa
 """
 
 
@@ -13,5 +14,4 @@ if __name__ == '__main__':
     cur = conn.cursor()
     cur.execute("SELECT * FROM `states` ORDER BY `id` ASC")
     query_rows = cur.fetchall()
-    [print(row) for row in query_rows]
-    
+    [print(row) for row in query_rows if row[1][0] == 'N']
