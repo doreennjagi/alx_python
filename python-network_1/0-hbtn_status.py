@@ -1,5 +1,9 @@
 #!/usr/bin/python3
+"""Fetches https://alx-intranet.hbtn.io/status."""
+
 import requests
+
+""" requests https://alu-intranet.hbtn.io/status  """
 
 url = "https://alu-intranet.hbtn.io/status"
 response = requests.get(url)
